@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2024-01-11T16:13:22.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hYIUny3FKaMBhNnMpzpZ" version="22.1.7" type="device">
+  <diagram name="Page-1" id="vgOeyhy2TYaw2lH7E3dl">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-2" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-4" value="Programmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="580" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-21" value="Application for finding antonyms" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="330" height="570" as="geometry">
+            <mxRectangle x="230" y="150" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-8" value="creating application using NLP techniques to generate outputs which are an antonym of the input (word).&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="80" y="450" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21" source="idO3CjA3WUdcLWMKiUAp-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-10" y="80" as="sourcePoint" />
+            <mxPoint x="100" y="64.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-18" value="typing word (input) into app&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="110" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-1" value="loading the app&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="112.5" y="30" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-40" y="290" as="sourcePoint" />
+            <mxPoint x="120" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-46" value="Using the outputs to build vocabulary in a new language." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="130" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-16.25" y="120" as="sourcePoint" />
+            <mxPoint x="93.75" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="43.75" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-48" value="Finding words to create contrasting imagery." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="130" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-50" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-40" y="389.5" as="sourcePoint" />
+            <mxPoint x="120" y="389.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="280" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-51" value="Reading opposite word (output)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry x="111.25" y="160" width="132.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-55" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="idO3CjA3WUdcLWMKiUAp-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-20" y="140" as="sourcePoint" />
+            <mxPoint x="110" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-30" value="Creative writer&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-31" value="Language Learner&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="idO3CjA3WUdcLWMKiUAp-35" value="General user&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
